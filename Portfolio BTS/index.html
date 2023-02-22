@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/cursor.js"></script>
+    <link rel="icon" href="img/favicon.PNG">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Menu -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark nav-custom">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio.</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="main_nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#"> Accueil </a></li>
+          <li class="nav-item"><a class="nav-link" href="#apropos"> À propos </a></li>
+          <li class="nav-item"><a class="nav-link" href="#competences"> Compétences </a></li>
+          <li class="nav-item"><a class="nav-link" href="#mesprojets"> Mes projets </a></li>
+          <li class="nav-item"><a class="nav-link" href="#mes-stages"> Mes stages </a></li>
+          <li class="nav-item"><a class="nav-link" href="#veille"> Veille technologique</a></li>
+        </ul>
+        </div> 
+       </div> 
+      </nav>
+  
+      <div>
+      <img src="accueil.png" width="100%">
+      <div>
+        <h3 id="cursor"></h3>
+    </div>
+    </div>
+    <!-- Section à propos -->
+    <div>
+    <img id="apropos" src="a-propos.png" width="100%">
+    <div>
+    <a href="CV.pdf" target="_blank"><button class="cv">CV COMPLET</button></a>
+    </div>
+    </div>
+    <!-- Section mes compétences -->
+    <div>
+        <img id="competences" src="competences.png" width="100%">
+    </div>
+    <!-- Section mes projets -->
+    <div id="mesprojets">
+        <br><br><br>
+    
+        <div style="float: left; margin-top: 50px; margin-left: 10px;">
+            <img id="title" src="img/mesprojets-title.png" width="65%">
+            </div>
+        <div class="projets">
+            
+           <a href="projet-zoo.html" target="_blank"><img id="p1" src="img/projet-zoo.png" width="25%"></a>
+           <a href="yummi.html" target="_blank">  <img id="p1"src="img/yummi.png" width="25%"></a> <br>
+           <a href="gacti.html" target="_blank"> <img id="p1" src="img/gacti.png" width="25%"></a> 
+           <a href="VVA-ice.html" target="_blank"> <img id="p1"src="img/VVA ice.png" width="25%"></a> 
+        </div>
+        </div>
+      <!-- Section mes stages -->
+        <div id="mes-stages">
+          <img src="Mes stages.png" width="100%">
+          <div>
+            <a href="stage-cithea.html" target="_blank"> <button class="btn-stage1" style="position: absolute; z-index: 1; margin-top: -5%; left: 10%;">Voir plus de détails</button>
+          </div>
+          <div>
+            <button class="btn-stage2" style="position: absolute; z-index: 1; margin-top: -5%; right: 10%;">Voir plus de détails</button>
+          </div>
+        </div>
+    
+</body>
+</html>
